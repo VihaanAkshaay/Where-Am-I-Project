@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vihaan/Workspace/Where-Am-I-Project/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/vihaan/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vihaan/Workspace/Where-Am-I-Project/catkin_ws/build
+CMAKE_BINARY_DIR = /home/vihaan/catkin_ws/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ udacity_bot/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin_empty_ex
 .PHONY : udacity_bot/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 udacity_bot/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/vihaan/Workspace/Where-Am-I-Project/catkin_ws/build/udacity_bot && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/vihaan/catkin_ws/build/udacity_bot && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : udacity_bot/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 udacity_bot/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/vihaan/Workspace/Where-Am-I-Project/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vihaan/Workspace/Where-Am-I-Project/catkin_ws/src /home/vihaan/Workspace/Where-Am-I-Project/catkin_ws/src/udacity_bot /home/vihaan/Workspace/Where-Am-I-Project/catkin_ws/build /home/vihaan/Workspace/Where-Am-I-Project/catkin_ws/build/udacity_bot /home/vihaan/Workspace/Where-Am-I-Project/catkin_ws/build/udacity_bot/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vihaan/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vihaan/catkin_ws/src /home/vihaan/catkin_ws/src/udacity_bot /home/vihaan/catkin_ws/build /home/vihaan/catkin_ws/build/udacity_bot /home/vihaan/catkin_ws/build/udacity_bot/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : udacity_bot/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

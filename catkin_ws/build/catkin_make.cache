@@ -1,2 +1,2 @@
 udacity_bot
--DCATKIN_DEVEL_PREFIX=/home/vihaan/Workspace/Where-Am-I-Project/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vihaan/Workspace/Where-Am-I-Project/catkin_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/vihaan/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vihaan/catkin_ws/install -G Unix Makefiles

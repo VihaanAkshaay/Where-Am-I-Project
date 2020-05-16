@@ -1,8 +1,8 @@
-# Install script for directory: /home/vihaan/Workspace/Where-Am-I-Project/catkin_ws/src/udacity_bot
+# Install script for directory: /home/vihaan/catkin_ws/src/udacity_bot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vihaan/Workspace/Where-Am-I-Project/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/vihaan/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vihaan/Workspace/Where-Am-I-Project/catkin_ws/build/udacity_bot/catkin_generated/installspace/udacity_bot.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vihaan/catkin_ws/build/udacity_bot/catkin_generated/installspace/udacity_bot.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/udacity_bot/cmake" TYPE FILE FILES
-    "/home/vihaan/Workspace/Where-Am-I-Project/catkin_ws/build/udacity_bot/catkin_generated/installspace/udacity_botConfig.cmake"
-    "/home/vihaan/Workspace/Where-Am-I-Project/catkin_ws/build/udacity_bot/catkin_generated/installspace/udacity_botConfig-version.cmake"
+    "/home/vihaan/catkin_ws/build/udacity_bot/catkin_generated/installspace/udacity_botConfig.cmake"
+    "/home/vihaan/catkin_ws/build/udacity_bot/catkin_generated/installspace/udacity_botConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/udacity_bot" TYPE FILE FILES "/home/vihaan/Workspace/Where-Am-I-Project/catkin_ws/src/udacity_bot/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/udacity_bot" TYPE FILE FILES "/home/vihaan/catkin_ws/src/udacity_bot/package.xml")
 endif()
 
